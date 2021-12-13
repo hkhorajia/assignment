@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+
+<head>
+
+
+</head>
+
+<body>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+  <style>
+    .container {
+      width: 1366px;
+      height: 973px;
+      font-family: Poppins, monospace;
+    }
+
+
+
+
+    body {
+
+      background-color: #fbfbfb;
+      font-family: Poppins, 'monospace';
+
+    }
+
+    .head1 {
+      display: block;
+      height: 80px;
+      background-color: #ce0505;
+      width: 1366px;
+    }
+
+    .round {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background-color: white;
+      margin: 15px 1212px 13px 102px;
+      position: absolute;
+    }
+
+    .e {
+      color: red;
+      height: 32px;
+      width: 47px;
+      position: absolute;
+      font-size: 33px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.52;
+      letter-spacing: normal;
+      text-align: left;
+      color: #eb2929;
+      font-family: 'Poppins', sans-serif;
+      padding: 1px 10px 4px 10px;
+    }
+
+    .l {
+      width: 43px;
+      height: 23px;
+      margin: 29px 308px 28px 1015px;
+
+      font-size: 16px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.56;
+      letter-spacing: normal;
+
+      color: #fff;
+      position: absolute;
+    }
+
+    .caa {
+      height: 46px;
+      width: 181px;
+      margin: 17px 101px 17px 1084px;
+      border-radius: 3px;
+      border: solid 1px #fff;
+      position: absolute;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .ca {
+      width: 152px;
+      height: 23px;
+
+      font-size: 16px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.56;
+      letter-spacing: normal;
+      color: #fff;
+      padding: 12px 14px 11px 15px;
+
+    }
+
+    .bpm {
+
+      width: 512px;
+      height: 51px;
+      font-size: 36px;
+      font-weight: 800;
+      font-stretch: normal;
+      font-style: normal;
+      font-family: Poppins;
+      line-height: 1.53;
+      letter-spacing: normal;
+      text-align: left;
+      color: #192f60;
+      position: absolute;
+      margin: 37px 741px 805px 113px;
+    }
+
+    .sidebar {
+      width: 260px;
+      height: 682px;
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+      background-color: #fff;
+      margin: 115px 993px 96px 113px;
+      position: absolute;
+      display: inline-block;
+      white-space: nowrap;
+
+
+    }
+
+    .filters {
+      width: 55px;
+      height: 25px;
+      font-size: 18px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #192f60;
+      position: absolute;
+      margin: 17px 179px 640px 26px;
+    }
+
+    .selloc {
+      width: 106px;
+      height: 20px;
+      margin: 52px 127px 610px 27px;
+
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #192f60;
+      position: absolute;
+    }
+
+    .rc1 {
+      width: 208px;
+      height: 35px;
+      margin: 11px 0 22px 1px;
+      border-radius: 3px;
+      border: solid 1px #8c96ab;
+      margin: 83px 25px 564px 27px;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #8c96ab;
+      position: absolute;
+    }
+
+    .Cui {
+      width: 51px;
+      height: 20px;
+      margin: 140px 182px 522px 27px;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #192f60;
+      position: absolute;
+
+    }
+
+    .cb1 {
+      width: 18px;
+      height: 18px;
+      margin: 175px 215px 489px 27px;
+      position: absolute;
+    }
+
+    .north {
+      width: 85px;
+      height: 20px;
+      margin: 175px 119px 487px 56px;
+      position: absolute;
+
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #8c96ab;
+
+
+    }
+
+    .cb2 {
+      width: 18px;
+      height: 18px;
+      margin: 207px 215px 457px 27px;
+      position: absolute;
+    }
+
+    .south {
+      width: 85px;
+      height: 20px;
+      margin: 207px 117px 455px 56px;
+      position: absolute;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #8c96ab;
+
+
+    }
+
+    .cb3 {
+      width: 18px;
+      height: 18px;
+      margin: 239px 215px 455px 27px;
+      position: absolute;
+    }
+
+    .chinese {
+      width: 57px;
+      height: 20px;
+      margin: 239px 147px 423px 56px;
+      position: absolute;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #8c96ab;
+
+
+    }
+
+    .cb4 {
+      width: 18px;
+      height: 18px;
+      margin: 271px 215px 393px 27px;
+      position: absolute;
+    }
+
+    .fastfood {
+      width: 67px;
+      height: 20px;
+      margin: 271px 137px 391px 56px;
+      position: absolute;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #8c96ab;
+
+
+    }
+
+    .cb5 {
+      width: 18px;
+      height: 18px;
+      margin: 303px 215px 361px 27px;
+      position: absolute;
+
+
+    }
+
+    .streetfood {
+      width: 79px;
+      height: 20px;
+      margin: 303px 125px 359px 56px;
+      position: absolute;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #8c96ab;
+
+
+    }
+
+    .costfortwo {
+      width: 89px;
+      height: 20px;
+      margin: 349px 144px 313px 27px;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #192f60;
+      position: absolute;
+    }
+
+    .rd1 {
+      width: 18px;
+      height: 18px;
+      margin: 384px 215px 280px 27px;
+      position: absolute;
+    }
+
+    .less500 {
+      width: 106px;
+      height: 20px;
+      margin: 384px 98px 278px 56px;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #8c96ab;
+      position: absolute;
+
+    }
+
+    .rd2 {
+      width: 18px;
+      height: 18px;
+      margin: 416px 215px 248px 27px;
+      position: absolute;
+    }
+
+    .fivetothou {
+      width: 99px;
+      height: 20px;
+      margin: 416px 105px 246px 56px;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #8c96ab;
+      position: absolute;
+    }
+
+    .rd3 {
+      width: 18px;
+      height: 18px;
+      margin: 448px 215px 216px 27px;
+      position: absolute;
+    }
+
+    .thoutofifteen {
+      width: 102px;
+      height: 20px;
+      margin: 448px 102px 214px 56px;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #8c96ab;
+      position: absolute;
+    }
+
+    .rd4 {
+      width: 18px;
+      height: 18px;
+      margin: 480px 215px 184px 27px;
+      position: absolute;
+    }
+
+    .fifteentotwo {
+      width: 106px;
+      height: 20px;
+      margin: 480px 98px 182px 56px;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #8c96ab;
+      position: absolute;
+    }
+
+    .rd5 {
+      width: 18px;
+      height: 18px;
+      margin: 512px 215px 152px 27px;
+      position: absolute;
+    }
+
+    .twothouplus {
+      width: 53px;
+      height: 20px;
+      margin: 512px 151px 150px 56px;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #8c96ab;
+      position: absolute;
+    }
+
+    .Sort {
+      width: 37px;
+      height: 25px;
+      margin: 561px 197px 96px 26px;
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #192f60;
+      position: absolute;
+    }
+
+    .rd6 {
+      width: 18px;
+      height: 18px;
+      margin: 601px 215px 63px 27px;
+      position: absolute;
+    }
+
+    .lowtohigh {
+      width: 114px;
+      height: 20px;
+      margin: 601px 90px 61px 56px;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #8c96ab;
+      position: absolute;
+    }
+
+    .rd7 {
+      width: 18px;
+      height: 18px;
+      margin: 633px 215px 31px 27px;
+      position: absolute;
+    }
+
+    .hightolow {
+      width: 116px;
+      height: 20px;
+      margin: 635px 88px 31px 56px;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #8c96ab;
+      position: absolute;
+    }
+
+    .box1 {
+      height: 291px;
+      width: 794px;
+      margin: 0px 154px 487px 418px;
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+      position: absolute;
+    }
+
+    .img1 {
+      height: 120px;
+      width: 120px;
+      border-radius: 10px;
+      position: absolute;
+      object-fit: cover;
+      margin: 25px 639px 146px 35px;
+    }
+
+    .thebcc {
+      width: 298px;
+      height: 43px;
+      margin: 39px 300px 209px 196px;
+      font-family: Poppins;
+      font-size: 30px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.53;
+      letter-spacing: normal;
+      text-align: left;
+      color: #192f60;
+      position: absolute;
+
+    }
+
+    .fort {
+      width: 39px;
+      height: 23px;
+      margin: 87px 554px 181px 201px;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.88;
+      letter-spacing: normal;
+      text-align: left;
+      color: #192f60;
+      position: absolute;
+    }
+
+    .address1 {
+      width: 365px;
+      height: 23px;
+      margin: 115px 228px 153px 201px;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.88;
+      letter-spacing: normal;
+      text-align: left;
+      color: #636f88;
+      position: absolute;
+    }
+
+    .cuisinecostfortwo {
+      width: 140px;
+      height: 118px;
+      margin: 202px 614px 5px 40px;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.88;
+      letter-spacing: normal;
+      text-align: left;
+      color: #636f88;
+      position: absolute;
+      white-space: normal;
+    }
+
+    .Bakery1 {
+      width: 251px;
+      height: 69px;
+      margin: 170px 327px 20px 216px;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.88;
+      letter-spacing: normal;
+      text-align: left;
+      color: #192f60;
+      position: absolute;
+      white-space: pre-line;
+    }
+
+    .line {
+      width: 726.4px;
+      height: 0;
+      margin: 176px 32.6px 115px 35px;
+      border: solid 1px #dedfe5;
+      position: absolute;
+    }
+  </style>
+</body>
+<div class="conatiner">
+  <div class="head1">
+    <div class="round">
+      <span class="e">e!</span>
+    </div>
+    <div class="l">Login</div>
+    <div class="caa">
+      <div class="ca">Create an account</div>
+    </div>
+  </div>
+</div>
+<div class="bpm">Breakfast Places in Mumbai</div>
+<div class="sidebar">
+  <div class="filters">Filters</div>
+  <div class="selloc">
+    Select Location
+  </div>
+
+  <div><select class="rc1">
+      <option value="select location" selected>select location</option>
+      <option value="saab">Mumbai Central</option>
+      <option value="opel">Andheri</option>
+      <option value="audi">Borivali</option>
+    </select>
+  </div>
+  <span class="Cui">Cuisine</span>
+  <div>
+    <label for="northindian"><input class="cb1" type="checkbox" name="northindian"><span class="north"> North
+        Indian</span></label>
+
+  </div>
+  <div>
+    <label for="northindian"><input class="cb2" type="checkbox" name="southindian" checked><span class="south"> South
+        Indian</span></label>
+
+  </div>
+  <div>
+    <label for="northindian"><input class="cb3" type="checkbox" name="chinese" checked><span class="chinese">Chinese
+      </span></label>
+
+  </div>
+  <div>
+    <label for="northindian"><input class="cb4" type="checkbox" name="fastfood"><span class="fastfood">Fast Food
+      </span></label>
+
+    <div>
+      <div>
+        <label for="northindian"><input class="cb5" type="checkbox" name="fastfood"><span class="streetfood"> Street
+            Food
+          </span>
+      </div>
+
+
+
+      <span class="costfortwo">
+        Cost For Two
+      </span>
+      <div>
+        <label for="lessthan500">
+          <input class="rd1" value="lessthan500" type="radio" name="lessthan500"><span class="less500">Less than &#8377
+            500</span>
+        </label>
+      </div>
+      <div>
+        <label for="500to1000">
+          <input class="rd2" value="500to1000" type="radio" name="500to1000"><span class="fivetothou"> &#8377 500 to
+            &#8377 1000
+          </span>
+        </label>
+      </div>
+      <div>
+        <label for="1000to1500">
+          <input class="rd3" value="1000to1500" type="radio" name="1000to1500"><span class="thoutofifteen">&#8377 1000
+            &#8377
+            1500
+          </span>
+        </label>
+      </div>
+      <div>
+        <label for="1500to2000">
+          <input class="rd4" value="1500to2000" type="radio" name="1500to2000"><span class="fifteentotwo">&#8377 1500
+            &#8377 2000
+
+          </span>
+        </label>
+      </div>
+      <div>
+        <label for="2000plus">
+          <input class="rd5" value="2000plus" type="radio" name="2000plus"><span class="twothouplus">&#8377 2000+
+          </span>
+        </label>
+      </div>
+      <span class="Sort">
+        Sort
+      </span>
+      <div>
+        <label for="lowtohigh">
+          <input class="rd6" value="lowtohigh" type="radio" name="lowtohigh"><span class="lowtohigh">Price low to high
+          </span>
+        </label>
+      </div>
+      <div>
+        <label for="hightolow">
+          <input class="rd7" value="hightolow" type="radio" name="hightolow"><span class="hightolow">Price high to low
+          </span>
+        </label>
+      </div>
+    </div>
+    <div class="box1">
+      <img class="img1" src="a.png" srcset="b.png 2x, c.png 3x" alt="Food">
+      <span class="thebcc">
+        The Big Chill Cakery
+      </span>
+      <span class="fort">
+        FORT
+      </span>
+      <span class="address1">
+        Shop 1, Plot D, Samruddhi Complex, Chincholi …
+      </span>
+
+
+      <div class="line">
+        
+      </div>
+      <span class="cuisinecostfortwo">
+        CUISINES:
+        COST FOR TWO:
+      </span>
+      <span class="Bakery1">
+        Bakery
+        ₹700
+      </span>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    </html>
